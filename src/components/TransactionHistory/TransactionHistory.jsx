@@ -1,7 +1,7 @@
-import s from './TransactionHistory.module.css';
+import s from './TransactionHistory.module.css'
 export default function TransactionHistory({ items }) {
   return (
-    <table className="transaction-history">
+    <table className={s}>
       <thead>
         <tr>
           <th>Type</th>
